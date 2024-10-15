@@ -1,0 +1,8 @@
+Problema
+Na migração entre fornecedores de API GWT, é necessário garantir que as requisições enviadas e as respostas recebidas mantenham consistência, garantindo que o sistema funcione corretamente após a mudança. Diferentes comportamentos entre as APIs podem introduzir erros difíceis de detectar manualmente, impactando a operação e a experiência do usuário.
+
+Solução Proposta
+Desenvolver uma ferramenta automatizada de comparação que captura, normaliza e compara as requisições e respostas de ambas as APIs GWT. Essa ferramenta identifica divergências críticas, gera relatórios detalhados e oferece uma validação completa do sucesso da migração, assegurando que as APIs antigas e novas se comportem de forma equivalente.
+
+Por que a Solução é Boa
+A solução automatiza um processo que seria extremamente demorado e sujeito a erros se feito manualmente. Além disso, a normalização dos dados e os relatórios detalhados permitem uma validação precisa e eficiente, reduzindo riscos e garantindo que qualquer divergência seja rapidamente identificada e corrigida antes da migração completa.
